@@ -257,7 +257,7 @@ header img {
 
 .todo__item-checkbox:checked + .todo__item-custom-checkbox {
   background: 
-    url("/assets/images/icon-check.svg") center center no-repeat,
+    url("../images/icon-check.svg") center center no-repeat,
     linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
   background-size: 9px 9px, cover;
 }
