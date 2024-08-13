@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <link rel="stylesheet" href="assets/styles/general.css">
+  <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+<body>
+  <main class="todo js-todo">
+    <header>
+      <h3>TODO</h3> 
+      <img class="toggle" src="assets/images/icon-sun.svg" alt="Toggle light and dark mode" role="button" aria-pressed="false">
+    </header>
+    <div class="todo__input-wrapper">
+      <input type="text" class="todo__input js-todo__input" placeholder="Create a new todo...">
+      <div class="todo__input-checkbox-wrapper">
+        <input type="checkbox" id="todo__input-checkbox">
+        <label for="todo__input-checkbox" class="todo__input-custom-checkbox"></label>
+      </div>
+    </div>
+    <div class="todo__list">
+      <ul class="todo__list-wrapper js-todo__list"></ul>
+      <div class="todo__list-info">
+        <span class="todo__items-left js-todo__items-left"></span>
+          <div class="todo__filters">
+            <span class="filter js-todo__filter active" id="all">All</span>
+            <span class="js-todo__filter" id="active">Active</span>
+            <span class="js-todo__filter" id="completed">Completed</span>
+          </div>
+        <span class="todo__list-clear-button js-todo__list-clear-button">Clear Completed</span>
+      </div>
+    </div>
+    <div class="todo__filters">
+      <span class="js-todo__filter active" id="all">All</span>
+      <span class="js-todo__filter" id="active">Active</span>
+      <span class="js-todo__filter" id="completed">Completed</span>
+    </div>
+    <span class="todo__drag-n-drop">Drag and drop to reorder list</span>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Reinhard Kent</a>.
+    </div>
+  </main>
+  <script type="module" src="assets/scripts/index.js"></script>
+</body>
+</html>
