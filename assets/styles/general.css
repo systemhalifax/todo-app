@@ -33,24 +33,24 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   background-color: var(--Very-Dark-Blue);
-  background-image: url(assets/images/bg-mobile-dark.jpg);
+  background-image: url(../images/bg-mobile-dark.jpg);
   background-repeat: no-repeat;
   background-size: 100% 200px;
   overflow-x: hidden;
 }
 
 body.light-mode {
-  background-image: url(./assets/images/bg-mobile-light.jpg);
+  background-image: url(../images/bg-mobile-light.jpg);
   background-color: var(--Very-Light-Grayish-Blue);
 }
 
 @media (min-width: 1076px) {
   body {
-    background-image: url(./assets/images/bg-desktop-dark.jpg);
+    background-image: url(../images/bg-desktop-dark.jpg);
     background-size: 100% 300px;
   }
 
   body.light-mode {
-    background-image: url(./assets/images/bg-desktop-light.jpg);
+    background-image: url(../images/bg-desktop-light.jpg);
   }
 }
